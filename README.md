@@ -43,6 +43,9 @@ Pré-requisitos: Java 8
 git clone https://github.com/IsraelLima25/sec-piloto-api.git
 
 Importar dentro da IDE de preferência como projeto maven.
+
+Acessar: http://localhost:{port}/swagger-ui.html
+
 ```
 # Autor
 
