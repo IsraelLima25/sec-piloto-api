@@ -30,7 +30,7 @@ public class TurmaService {
 	public Turma atualizarTurma(Turma turma, Long codigo) {
 		
 		Turma turmaSalva = buscarTurmaPorCodigo(codigo);	
-		BeanUtils.copyProperties(turma, turmaSalva, "codigo");
+		BeanUtils.copyProperties(turma, turmaSalva, "codigo", "escolaTurma");
 		repositoryTurma.save(turmaSalva);
 		
 		return turmaSalva;		
