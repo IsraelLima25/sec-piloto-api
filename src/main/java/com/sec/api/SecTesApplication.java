@@ -48,7 +48,6 @@ public class SecTesApplication implements CommandLineRunner {
 		Perfil perfil = new Perfil();
 		perfil.setDescricao("ROLE_ADMIN");
 		
-		
 		return perfil;
 	}
 
